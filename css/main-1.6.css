@@ -637,6 +637,42 @@ section h2 {
     *zoom: 1;
 }
 
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #b1bf92;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #b1bf92;
+	box-shadow:inset 0px 1px 0px 0px #b1bf92;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b1bf92), color-stop(1, #b1bf92));
+	background:-moz-linear-gradient(top, #b1bf92 5%, #b1bf92 100%);
+	background:-webkit-linear-gradient(top, #b1bf92 5%, #b1bf92 100%);
+	background:-o-linear-gradient(top, #b1bf92 5%, #b1bf92 100%);
+	background:-ms-linear-gradient(top, #b1bf92 5%, #b1bf92 100%);
+	background:linear-gradient(to bottom, #b1bf92 5%, #b1bf92 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b1bf92', endColorstr='#b1bf92',GradientType=0);
+	background-color:#b1bf92;
+	border:1px solid #b1bf92;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b1bf92), color-stop(1, #b1bf92));
+	background:-moz-linear-gradient(top, #b1bf92 5%, #b1bf92 100%);
+	background:-webkit-linear-gradient(top, #b1bf92 5%, #b1bf92 100%);
+	background:-o-linear-gradient(top, #b1bf92 5%, #b1bf92 100%);
+	background:-ms-linear-gradient(top, #b1bf92 5%, #b1bf92 100%);
+	background:linear-gradient(to bottom, #b1bf92 5%, #b1bf92 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b1bf92', endColorstr='#b1bf92',GradientType=0);
+	background-color:#b1bf92;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -782,11 +818,7 @@ section h2 {
 
 @font-face {
         font-family: 'EdwardianScrAltITCTT';
-        src: url('edwasai.eot');
-        src: url('edwasai.eot?#iefix') format('embedded-opentype'),
-                 url('edwasai.woff') format('woff'),
-                 url('edwasai.ttf') format('truetype'),
-                 url('edwasai.svg#edwasai') format('svg');
+        src: url('Florabella.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
 }
