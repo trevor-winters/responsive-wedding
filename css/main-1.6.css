@@ -90,7 +90,7 @@ body {
 
 #gmap iframe {
     width: 93%;
-    height: 200px;
+    height: 00px;
 
     border: 10px solid #090909;
 
@@ -436,6 +436,7 @@ section h2 {
 
     #gmap iframe {
         height: 400px;
+	width: 97%;
     }
 
 
