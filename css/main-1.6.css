@@ -115,6 +115,15 @@ body {
     outline: none;
 }
 
+#gmap .overlay {
+   background:transparent; 
+   position:relative; 
+   width:97%;
+   height:400px; /* your iframe height */
+   top:400px;  /* your iframe height */
+   margin-top:-400px;  /* your iframe height */
+}
+
 /* ===================
     Theme
    =================== */
@@ -439,6 +448,14 @@ section h2 {
 	width: 97%;
     }
 
+#gmap .overlay {
+   background:transparent; 
+   position:relative; 
+   width:97%;
+   height:400px; /* your iframe height */
+   top:400px;  /* your iframe height */
+   margin-top:-400px;  /* your iframe height */
+}
 
 
 /* ========================
